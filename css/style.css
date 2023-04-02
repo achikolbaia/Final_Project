@@ -1,0 +1,134 @@
+/* start of header  */
+.main_container {
+    max-width: 1920px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+header {
+    max-width: inherit;
+    width: inherit;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    padding: 25px 240px;
+    background-color: rgba(213, 144, 110, 0.52);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 31%;
+}
+
+ul {
+    display: flex;
+    gap: 60px;
+}
+
+.nav_link {
+    font-family: 'Inter';
+    color: white;
+    font-size: 18px;
+    transition: all;
+    transition: .5s;
+}
+
+.nav_link:hover {
+    cursor: pointer;
+    color: rgb(102, 255, 102);
+}
+
+.logo {
+    box-shadow: none;
+    transition: all;
+    transition: .5s;
+}
+
+.logo:hover {
+    filter: drop-shadow(1px 1px 10px rgb(3, 12, 6))
+}
+
+.sign_in_cart {
+    width: 10%;
+    display: flex;
+    gap: 10px;
+}
+
+.sign_in {
+    font-family: 'Inter';
+    color: white;
+    font-size: 18px;
+    transition: all;
+    transition: .5s;
+}
+
+.sign_in:hover {
+    cursor: pointer;
+    color: rgb(102, 255, 102);
+}
+
+.cart {
+    font-size: 18px;
+    color: white;
+    transition: all;
+    transition: .5s;
+}
+
+.cart:hover {
+    cursor: pointer;
+    color: rgb(102, 255, 102);
+}
+
+/* end of header  */
+
+/* start of section 1  */
+.banner_container {
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 283px 0 188px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    width: 40%;
+    font-family: 'Inter';
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    width: 45%;
+    font-family: 'Inter';
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 19px;
+    margin: 16px 0 85px;
+}
+
+button {
+    font-family: 'Inter';
+    color: white;
+    width: 311px;
+    height: 56px;
+    background: none;
+    border: 2px solid #D5906E;
+    border-radius:10px;
+    transition: all;
+    transition: .5s;
+}
+
+button:hover {
+    background: #D5906E;
+    cursor: pointer;
+}
