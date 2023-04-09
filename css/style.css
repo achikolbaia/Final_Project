@@ -135,6 +135,7 @@ button:hover {
 
 /* end of section 1  */
 
+/* start of mini section 1 */
 .mini_container {
     width: 80%;
     height: 206px;
@@ -153,4 +154,119 @@ figcaption {
     line-height: 22px;
     color: #B53B1B;
     text-align: center;
+}
+
+/* end of mini section 1 */
+
+/* start of grid  */
+.section_2 {
+    height: 922px;
+    background-color: #402101;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.grid {
+    width: 1190px;
+    height: 642px;
+    display: grid;
+    grid-template-columns: 315px 60px 315px 60px 440px;
+    grid-template-rows: 322px 60px 260px;
+    grid-template-areas:
+        "img1 img1 img1 . img2"
+        ". . . . img2"
+        "img3 . img4 . img5";
+}
+
+.grid_1_img {
+    grid-area: img1;
+}
+
+.grid_2_img {
+    grid-area: img2;
+}
+
+.grid_3_img {
+    grid-area: img3;
+}
+
+.grid_4_img {
+    grid-area: img4;
+}
+
+.grid_5_img {
+    grid-area: img5;
+}
+
+/* end of grid */
+
+/* start of mini section 2 */
+h6 {
+    margin: 160px 0 40px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #402101;
+}
+
+.mini_slide_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.mini_slide {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    gap: 60px;
+}
+
+
+.mini_slide_items {
+    width: 25%;
+    display: flex;
+    position: relative;
+}
+
+.products {
+    width: 100%;
+}
+
+.item_price {
+    position: absolute;
+    text-align: center;
+    width: 88px;
+    height: 48px;
+    padding: 15px 17px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B53B1B;
+    background-color: #fffefd;
+    border: 1px solid: white;
+    border-radius: 20px;
+    top: 75%;
+    left: 5%;
+    transform: translate(75% 5%);
 }
