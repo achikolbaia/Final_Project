@@ -116,7 +116,7 @@ h3 {
     margin: 16px 0 85px;
 }
 
-button {
+.shop_now_button {
     font-family: 'Inter';
     color: white;
     width: 311px;
@@ -128,7 +128,7 @@ button {
     transition: .5s;
 }
 
-button:hover {
+.shop_now_button:hover {
     background: #D5906E;
     cursor: pointer;
 }
@@ -333,4 +333,84 @@ h6 {
 ::placeholder {
     color: #FFFFFF;
     font-size: 16px;
+}
+
+/* end of banner container 2 */
+
+/* start of article  */
+.article {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+}
+
+.article_head_title {
+    margin: 161px 0 40px 0;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #402101;
+}
+
+.text_divs {
+    width: 30%;
+    background-color: rgba(213, 144, 110, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.text_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B53B1B;
+}
+
+.in_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #402101;
+}
+
+.help {
+    border: 2px solid red;
+    margin-top: 112px;
+    margin-inline: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.help_text {
+    margin-top: 112px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #402101;
+}
+
+.help_button {
+    margin-top: 20px;
+    margin-left: 40%;
+    width: 309px;
+    height: 56px;
+    background: #B53B1B;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-size: 24px;
+    color: #FFFFFF;
 }
