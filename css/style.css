@@ -98,15 +98,16 @@ ul {
     align-items: center;
 }
 
-h2 {
+.banner_title {
     width: 40%;
     font-family: 'Inter';
     font-size: 48px;
     color: white;
     text-align: center;
+    
 }
 
-h3 {
+.banner_text {
     width: 45%;
     font-family: 'Inter';
     color: white;
@@ -173,7 +174,7 @@ figcaption {
     gap: 40px;
 }
 
-h5 {
+.our_gallery {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -222,7 +223,7 @@ h5 {
 /* end of grid */
 
 /* start of mini section 2 */
-h6 {
+.latest_products {
     margin: 160px 0 40px;
     text-align: center;
     font-family: 'Inter';
@@ -283,6 +284,7 @@ h6 {
 
 /* start of section 2 */
 .banner_container_2 {
+    padding: 140px;
     margin-top: 160px;
     background-image: url(../images/banner_2.png);
     background-position: center;
@@ -292,6 +294,8 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 60px;
+
 }
 
 .mail_subscribe {
@@ -409,8 +413,71 @@ h6 {
     width: 309px;
     height: 56px;
     background: #B53B1B;
+    border: none;
     border-radius: 10px;
     font-family: 'Inter';
     font-size: 24px;
     color: #FFFFFF;
 }
+
+/* end of article  */
+
+/* start of footer  */
+footer {
+    margin-top: 160px;
+    padding: 32px 300px;
+    width: 100%;
+    background-color: #402101;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_divs {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact {
+    display: flex;
+    gap: 25px;
+}
+
+.hele {
+    margin-bottom: 16px;
+    font-family: 'Rubik';
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.hele_text {
+    font-family: 'Rubik';
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.social {
+    margin-top: 43px;
+    display: flex;
+    gap: 29px;
+}
+
+/* .tel::before {
+    content: "\f601";
+    font-family: "Font Awesame 6 Free";
+    color: #fffefd;
+} */
+
+.icon{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.ico {
+    display: flex;
+    gap: 16px;
+    font-family: 'Rubik';
+    font-size: 16px;
+    color: #FFFFFF;
+}
+/* end of footer  */
