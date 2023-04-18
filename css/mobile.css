@@ -1,0 +1,122 @@
+@media (max-width: 850px) {
+
+    /* header  */
+    .logo {
+        display: none;
+    }
+
+    .mini_logo {
+        display: block;
+    }
+
+    .sign_in_cart {
+        width: 100px;
+    }
+
+    /* end header  */
+
+    /* start of section 1  */
+
+
+    header {
+        padding: 15px;
+    }
+
+    .banner_title {
+        margin-top: 50px;
+        font-size: 40px;
+    }
+
+    .banner_text {
+        margin: 16px 0 25px;
+    }
+
+    /* end of section 1  */
+
+    /* start of mini section 2 */
+    .latest_products {
+        margin-top: 30px;
+    }
+
+    .mini_slide_items {
+        width: 100%;
+    }
+
+    .mini_slide_container {
+        width: 100%;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .item_price {
+        top: 80%;
+        left: 10%;
+        transform: translate(80% 10%);
+    }
+
+    /* end of mini section 2  */
+
+    /* start banner_container 2 */
+
+    .banner_container_2 {
+        margin-top: 50px;
+        height: 230px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mail_subscribe {
+        text-align: center;
+        width: 90%;
+        font-size: 35px;
+    }
+
+    .mail {
+        width: 70%;
+    }
+
+    .mail_input {
+        width: 70%;
+    }
+
+    .subscribe {
+        width: 40%;
+        padding: 5px 5px;
+    }
+
+    /* end of banner container 2 */
+
+    /* start of article  */
+    .article {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .text_divs {
+        width: 100%;
+    }
+
+    /* end of article  */
+
+    /* start of footer  */
+    footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hele {
+        text-align: center;
+    }
+
+
+
+
+}
