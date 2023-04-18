@@ -429,6 +429,8 @@ figcaption {
 }
 
 .article_head_title {
+    margin-top: 160px;
+    margin-bottom: 40px;
     text-align: center;
     font-family: 'Inter';
     font-style: normal;
