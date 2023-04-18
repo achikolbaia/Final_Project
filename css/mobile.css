@@ -1,6 +1,11 @@
 @media (max-width: 850px) {
 
     /* header  */
+
+    header {
+        padding: 15px;
+    }
+
     .logo {
         display: none;
     }
@@ -16,14 +21,7 @@
     /* end header  */
 
     /* start of section 1  */
-
-
-    header {
-        padding: 15px;
-    }
-
     .banner_title {
-        margin-top: 50px;
         font-size: 40px;
     }
 
@@ -74,12 +72,12 @@
 
     .mail_subscribe {
         text-align: center;
-        width: 90%;
+        width: 95%;
         font-size: 35px;
     }
 
     .mail {
-        width: 70%;
+        width: 80%;
     }
 
     .mail_input {
@@ -113,8 +111,33 @@
     }
 
     .hele {
+        width: 100%;
         text-align: center;
     }
+
+    .social {
+        margin-top: 10px;
+        margin-inline: auto;
+    }
+
+    .footer_divs {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .ico {
+        margin-inline: auto;
+    }
+    /* end of footer  */
+
+    .mini_container {
+        width: 100%;
+        height: 100px;
+    }
+    .mini_slide_images {
+        width: 100%;
+    }
+
 
 
 
