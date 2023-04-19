@@ -155,7 +155,7 @@
     }
 
     .search_bar {
-        width: 80%;
+        width: 95%;
     }
 
     .search_input {
@@ -193,7 +193,7 @@
     }
     /* end of of banner container and feedback */
 
-    /* start contact container  */
+    /* start of contact container  */
     .full_contact_div {
         height: 600px;
         margin-bottom: 90px;
@@ -215,6 +215,9 @@
     .maps {
         width: 100%;
     }
+    /* end of contact container  */
+    /* end of page 3 */
+
 }
 
 
