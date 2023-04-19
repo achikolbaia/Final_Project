@@ -19,6 +19,8 @@
 
     /* end of header  */
 
+
+    /* page 1 */
     /* start section 1 */
     .banner_container {
         padding: 160px 0 88px;
@@ -71,7 +73,6 @@
 
     /* end of banner_container_2  */
 
-
     /* start of article */
     .article {
         width: 90%;
@@ -94,8 +95,10 @@
     }
 
     /* end of footer  */
+    /* end page 1 */
 
     /* page 2  */
+    /* start of banner container 2 */
     .banner_container_page_2 {
         height: 360px;
         gap: 30px;
@@ -111,9 +114,11 @@
         gap: 20px;
     }
 
+    /* start of banner container 2 */
     /* end of page 2  */
 
     /* page 3 */
+    /* start of feedback and contact  */
     .feedback {
         margin-inline: auto;
         margin-top: 70px;
@@ -130,6 +135,7 @@
         height: 320px;
     }
 
+    /* end of feedback and contact  */
     /* end of page 3 */
 
 }
@@ -137,6 +143,7 @@
 
 @media (max-width: 1000px) {
 
+    /* page 1 */
     /* start of mini section 1  */
     .mini_logo {
         display: none;
@@ -157,7 +164,7 @@
 
     /* end of mini section 1  */
 
-    /* start grid  */
+    /* start of grid  */
     .section_2 {
         height: 1450px;
     }
@@ -187,7 +194,6 @@
     .mini_slide_container {
         width: 90%;
         margin-inline: auto;
-
     }
 
     .mini_slide {
@@ -201,11 +207,10 @@
 
     /* end of mini section 2 */
 
-
     /* start of section 2 */
     .banner_container_2 {
         margin-top: 80px;
-
     }
-
+    /* end of section 2  */
+    /* end of page 1 */
 }

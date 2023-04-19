@@ -110,6 +110,7 @@ ul {
 
 /* end of header  */
 
+/* page 1 */
 /* start of section 1  */
 .banner_container {
     background-image: url(../images/banner.png);
@@ -607,12 +608,12 @@ footer {
     cursor: pointer;
     font-size: 16px;
     color: #88ff00;
-
 }
-
 /* end of footer  */
 
+
 /* page 2 */
+/* start of banner container page 2 */
 .banner_container_page_2 {
     background-image: url(../images/page_2_banner.png);
     background-position: center;
@@ -633,6 +634,9 @@ footer {
     font-size: 40px;
     color: #FFFFFF;
 }
+/* start of banner container page 2 */
+
+/* start of search and produccts */
 
 .full_search {
     margin-inline: auto;
